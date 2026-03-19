@@ -18,7 +18,15 @@ Whether you're joining the Agora hackathon or just exploring conversational AI f
 | **Project Starter Kit**                    | <https://github.com/AgoraIO-Conversational-AI/agent-samples>                                                  |
 | **Agora Skillls For Vibe Coding**          | <https://github.com/agoraio/skills>                                                                           |
 
-<br />
+## What You'll Need
+
+### Agora Credentials (Always Required)
+
+Every path starts with an Agora App ID and App Certificate:
+
+1. Sign up at the [Agora Console](https://console.agora.io)
+2. Create a project under [Project Management](https://console.agora.io/project-management)
+3. Enable the **App Certificate** in your project's Security settings
 
 ```bash
 APP_ID=your_agora_app_id
