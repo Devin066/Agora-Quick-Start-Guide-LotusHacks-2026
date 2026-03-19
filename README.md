@@ -18,6 +18,8 @@ Whether you're joining the Agora hackathon or just exploring conversational AI f
 | **Project Starter Kit**                    | <https://github.com/AgoraIO-Conversational-AI/agent-samples>                                                  |
 | **Agora Skillls For Vibe Coding**          | <https://github.com/agoraio/skills>                                                                           |
 
+<br />
+
 ```bash
 APP_ID=your_agora_app_id
 APP_CERTIFICATE=your_agora_app_certificate
