@@ -18,6 +18,50 @@ Whether you're joining the Agora hackathon or just exploring conversational AI f
 | **Project Starter Kit**                    | <https://github.com/AgoraIO-Conversational-AI/agent-samples>                                                  |
 | **Agora Skillls For Vibe Coding**          | <https://github.com/agoraio/skills>                                                                           |
 
+## What You'll Build (with this guide)
+
+A real-time voice AI agent running in your browser. You speak, the agent listens, thinks, and talks back — with sub-second latency, interruption handling, and live transcription. Building with a different Agora product? You'll still need [Agora Credentials](#agora-credentials-always-required) — then head to the [Agora Docs](https://docs.agora.io/) for your product. If you're using Coding Agent, the [Agora Skill](#install-the-agora-skill) covers all Agora products, not just ConvoAI.
+
+Try it now at **[convoai-demo.agora.io](https://convoai-demo.agora.io/)** — no setup required.
+
+Everything runs on [Agora's Conversational AI Platform](https://docs.agora.io/en/conversational-ai/overview/product-overview). The open-source [agent-samples](https://github.com/AgoraIO-Conversational-AI/agent-samples) repo gives you a Python backend and React frontends that work out of the box.
+
+## Ways to Build
+
+You don't need to write code. Pick the approach you're comfortable with:
+
+### Coding Agent
+
+Coding agent can read the instructions, install dependencies, set up environment variables, and run the servers from a single prompt. The repo also includes an AGENT.md file designed for AI coding assistants, so it can follow the workflow directly.
+
+We recommend using coding agents, it works well for navigating the full project structure and handling larger codebases with agent-assisted development.
+
+**Example prompt** (works with any of the above):
+
+```
+Clone https://github.com/AgoraIO-Conversational-AI/agent-samples
+and then I want to run the React Voice AI Agent here on my laptop.
+Be sure to read the AGENT.md before you begin building.
+```
+
+For video with avatar:
+
+```
+Clone https://github.com/AgoraIO-Conversational-AI/agent-samples
+and then I want to run the Video AI Agent with Avatar Sample here
+on my laptop. Be sure to read the AGENT.md before you begin building.
+```
+
+The agent reads `AGENT.md`, installs dependencies, asks for your API keys, configures `.env`, and starts both servers. Within minutes you have a working agent in your browser.
+
+#### Install the Agora Skill
+
+Optional — gives Coding Agent built-in knowledge of all Agora products (RTC, RTM, ConvoAI, Cloud Recording), token generation, and more:
+
+```bash
+npx skills add github:agoraio/skills
+```
+
 ## What You'll Need
 
 ### Agora Credentials (Always Required)
