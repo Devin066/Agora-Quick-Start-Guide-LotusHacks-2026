@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "agora": {
+      "source": "AgoraIO/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agora/SKILL.md",
+      "computedHash": "36f65171052af3e646dfa257a950ded948b72582a55770b1cb0d9b2c81882c43"
+    }
+  }
+}
